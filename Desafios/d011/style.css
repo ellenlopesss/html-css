@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: kgblank;
+    src: url(fontes/KGBlankSpaceSketch.ttf);
+}
+
+@font-face {
+    font-family: calist;
+    src: url(fontes/CALIST.TTF);
+}
+
+h1 {
+    font-family: 'kgblank';
+    font-size: 2em
+}
+
+h2 {
+    font-family: 'calist';
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'calist';
+    font-size: 1.6em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    font-family: 'calist';
+    font-size: 1em;
+    font-weight: normal;
+    text-align: justify;
+}
